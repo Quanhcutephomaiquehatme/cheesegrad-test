@@ -1,0 +1,98 @@
+/* ===== cheese-profile-v7 ===== */
+.cheese-monogram{font-family:"Playfair Display",Georgia,serif;font-size:32px;font-style:italic;font-weight:700;line-height:1;color:#173d5d;letter-spacing:-.12em;padding-right:4px}.cheese-monogram span{color:#d9a822}
+
+.nav-wrap.motion-nav .brand-logo {width:52px!important;height:52px!important;border-radius:50%!important;padding:5px!important;background:#fffaf0!important;border:1px solid #e5dccd!important;box-shadow:0 5px 18px #08283f14!important}
+.nav-wrap.motion-nav .header-logo-badge {width:100%!important;height:100%!important;border-radius:50%!important;overflow:hidden!important}
+.nav-wrap.motion-nav .brand-logo img {object-fit:contain!important;object-position:center!important}
+.cheese-photographer-card {transition:transform .38s cubic-bezier(.2,.75,.2,1),box-shadow .38s ease,border-color .38s ease,opacity .18s ease!important;cursor:pointer}
+.cheese-photographer-card:hover,.cheese-photographer-card:focus-within {transform:translateY(-4px)!important;box-shadow:0 16px 35px #173d5d14!important}
+.cheese-photographer-card.is-leaving {opacity:0;transform:translateY(5px)!important}
+.cheese-photographer-card .heart {opacity:1;transform:none;z-index:5}
+.cheese-photographer-card .card-book-link {min-height:44px!important;color:#173d5d!important;font-weight:700!important;margin-top:8px}
+.cheese-photographer-card .card-image::before {transition:transform .6s cubic-bezier(.2,.75,.2,1)!important}
+.profile-page {display:none}
+html.profile-mode body {background:#f5f8fb;color:#17354f}
+html.profile-mode #top,html.profile-mode body>footer,html.profile-mode .fx-loader,html.profile-mode .scroll-progress,html.profile-mode .music-toggle {display:none!important}
+html.profile-mode .profile-page {display:block}
+html.profile-mode .nav-wrap.motion-nav {background:#fffefb!important;border-bottom:1px solid #dce5ed!important;padding-top:9px!important;padding-bottom:9px!important}
+html.profile-mode .nav-wrap.motion-nav nav a,html.profile-mode .nav-wrap.motion-nav .mobile-menu-toggle {color:#173d5d!important}
+html.profile-mode .nav-wrap.motion-nav .nav-cta {background:#173d5d!important;color:white!important}
+.profile-shell {max-width:850px;margin:0 auto;padding:102px 24px 128px}
+.profile-breadcrumb {display:flex;gap:10px;align-items:center;font-size:13px;color:#65798b;margin-bottom:18px}
+.profile-breadcrumb a:hover {color:#173d5d;text-decoration:underline}
+.profile-gallery {position:relative}
+.profile-slides {display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:22px;background:#dce5ed;aspect-ratio:4/3}
+.profile-slides::-webkit-scrollbar{display:none}
+.profile-slides figure {flex:0 0 100%;width:100%;height:100%;margin:0;scroll-snap-align:start;scroll-snap-stop:always}
+.profile-slides img {width:100%;height:100%;object-fit:cover}
+.profile-photo-arrow {position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border:1px solid #ffffff88;border-radius:50%;background:#fffefbe8;color:#173d5d;font-size:24px;cursor:pointer;box-shadow:0 4px 14px #08283f22}
+.profile-photo-arrow.prev{left:14px}.profile-photo-arrow.next{right:14px}
+.profile-gallery-meta {display:flex;justify-content:space-between;align-items:center;margin:12px 0 20px;color:#6c7c8b;font-size:12px}
+.profile-dots {display:flex;gap:6px}.profile-dot {width:28px;height:28px;padding:9px;border:0;background:transparent;cursor:pointer}.profile-dot:after{content:'';display:block;width:8px;height:8px;border-radius:50%;background:#b5c3cd}.profile-dot[aria-current=true]:after{background:#173d5d}
+.profile-album-link {display:flex;justify-content:center;align-items:center;gap:12px;background:#173d5d;color:#fff;border-radius:12px;padding:16px 20px;font-weight:700;font-size:14px;transition:background .25s}
+.profile-album-link:hover{background:#25597e}
+.profile-info {padding:26px 0 8px}.profile-name-row{display:flex;align-items:center;gap:12px}.profile-name-row h1 {font-family:'Playfair Display',Georgia,serif;font-size:36px;letter-spacing:-.03em;margin:0}
+.profile-team {font-size:10px;letter-spacing:.1em;font-weight:800;padding:7px 10px;background:#e5eff6;color:#29668e;border-radius:6px}
+.profile-summary {font-size:14px;line-height:1.8;color:#5b6f80;margin:12px 0}.profile-summary .star {color:#c18b06}
+.profile-tags {display:flex;gap:7px;flex-wrap:wrap}.profile-tags span{font-size:12px;padding:7px 10px;background:#eaf0f5;border-radius:6px;color:#4f6475}
+.profile-section{margin-top:30px;scroll-margin-top:95px}.profile-section h2{font:800 12px 'DM Sans',sans-serif;letter-spacing:.13em;text-transform:uppercase;margin:0 0 14px;color:#6c7f90}
+.service-list {margin:0;border:1px solid #d7e2eb;border-radius:14px;overflow:hidden;background:#ffffff66}.service-list>div{padding:16px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #d7e2eb}.service-list>div:last-child{border:0}.service-list dt{font-size:13px}.service-list dd {margin:0;flex-shrink:0;font-size:11px;background:#edf2f6;color:#60758a;border:1px solid #d7e2eb;border-radius:6px;padding:6px 8px}
+.profile-note {font-size:12px;line-height:1.7;color:#6c7f90}
+.profile-portfolio {display:grid;grid-template-columns:1fr 1fr;gap:12px}.profile-portfolio img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;background:#dce5ed}
+.profile-contact {border:1px solid #d7e2eb;background:white;border-radius:18px;padding:24px}.profile-contact p{line-height:1.7;font-size:14px;color:#617588}.profile-contact label {display:block;font-size:13px;font-weight:700;margin-bottom:10px}.profile-contact textarea{font:14px/1.8 'DM Sans',sans-serif;width:100%;min-height:156px;border:1px solid #d7e2eb;border-radius:10px;padding:14px;resize:vertical;color:#17354f}.profile-copy{border:0;border-radius:10px;padding:13px 18px;background:#173d5d;color:white;font-weight:700;cursor:pointer;margin-top:12px}.profile-copy-status{min-height:24px;font-size:12px;color:#267555;margin-top:10px}
+.profile-bookbar {position:fixed;bottom:0;left:0;right:0;z-index:1100;background:#fffefbf5;backdrop-filter:blur(14px);border-top:1px solid #d7e2eb;padding:13px 24px calc(13px + env(safe-area-inset-bottom))}.profile-bookbar-inner{max-width:802px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:18px}.profile-bookbar small{display:block;color:#6c7f90;font-size:11px;margin-bottom:3px}.profile-bookbar strong{font-size:22px}.profile-bookbar a{background:#e5b52d;color:#17354f;border-radius:10px;padding:15px 20px;font-size:14px;font-weight:800;transition:background .25s}.profile-bookbar a:hover{background:#f0c64c}
+@media(max-width:700px){.nav-wrap.motion-nav .brand-logo{width:44px!important;height:44px!important}.profile-shell{padding:88px 16px 128px}.profile-slides{border-radius:15px}.profile-name-row h1{font-size:30px}.profile-bookbar{padding-left:16px;padding-right:16px}.profile-bookbar strong{font-size:19px}.profile-bookbar a{font-size:12px;padding:14px}.service-list>div{padding:14px 12px;gap:10px}.service-list dt{font-size:12px}.service-list dd{font-size:10px}.profile-contact{padding:18px}.profile-gallery-meta{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.cheese-photographer-card,.cheese-photographer-card .card-image::before{transition:none!important}.cheese-photographer-card:hover{transform:none!important}}
+
+/* ===== directory-v8 ===== */
+/* Keep the exact original logo artwork, inside a round frame. */
+.nav-wrap.motion-nav .brand-logo{width:60px!important;height:60px!important;padding:4px!important;border-radius:50%!important}
+.nav-wrap.motion-nav .header-logo-badge{border-radius:50%!important;width:100%!important;height:100%!important}
+.nav-wrap.motion-nav .brand-logo img{object-fit:contain!important;object-position:center!important}
+.directory-heading{display:none}.directory-heading>a{font-size:13px;color:#607387;display:inline-block;margin-bottom:32px}.directory-heading .eyebrow{display:block;font-size:10px;letter-spacing:.14em}.directory-heading h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(36px,5vw,66px);line-height:1.12;letter-spacing:-.04em;margin:16px 0;color:#173d5d}.directory-heading h1 em{color:#a97810}.directory-heading p{max-width:620px;color:#657585;line-height:1.8;margin-bottom:36px}
+.browse-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:20px}.all-photographers{color:#173d5d;font-weight:700;font-size:14px}.view-switch{display:flex;padding:4px;background:#e9edf0;border-radius:99px;gap:3px}.view-switch button{border:0;border-radius:99px;background:transparent;color:#607387;font-size:12px;padding:10px 15px;cursor:pointer}.view-switch button[aria-pressed=true]{background:#173d5d;color:white}
+.directory-tools{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:16px;margin-bottom:20px}.directory-tools label{font-size:12px;font-weight:700;color:#526b7e;display:flex;flex-direction:column;gap:8px}.directory-tools input,.directory-tools select{width:100%;border:1px solid #d5dee5;background:#fff;border-radius:12px;padding:14px;color:#173d5d;min-height:48px}
+#photographers .filters{flex-wrap:wrap;overflow:visible;gap:8px}
+.rail-toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:12px}.rail-toolbar p{font-size:13px;color:#61798c}.rail-toolbar>div{display:flex;gap:8px}.rail-toolbar button{width:44px;height:44px;border-radius:50%;border:1px solid #c8d5df;background:white;color:#173d5d;font-size:22px;cursor:pointer;transition:background .2s}.rail-toolbar button:hover{background:#f7e8ad}.rail-toolbar button:disabled{opacity:.35;cursor:default}.sample-note{font-size:12px;color:#71808d;line-height:1.6;margin-bottom:16px}
+#photographers .cheese-photographer-grid{display:flex!important;gap:20px!important;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:4px;padding:10px 4px 26px;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#b1bec9 transparent;align-items:stretch;}
+#photographers .cheese-photographer-card{flex:0 0 calc((100% - 60px)/4);scroll-snap-align:start;opacity:1;transform:none;transition:transform .32s ease,opacity .18s ease,box-shadow .32s ease!important}
+#photographers .cheese-photographer-card.hidden{display:none!important}
+#photographers .cheese-photographer-card.is-leaving{opacity:0}
+#photographers.grid-view .cheese-photographer-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;overflow:visible}
+#photographers.grid-view .rail-toolbar>div{display:none}
+.directory-empty{padding:40px 20px;border:1px dashed #c8d5df;border-radius:18px;text-align:center;color:#526b7e}.directory-empty[hidden]{display:none}
+html.directory-mode body{background:#f7f9fb}html.directory-mode #top>section:not(#photographers),html.directory-mode .fx-loader{display:none!important}html.directory-mode #photographers{padding-top:120px}html.directory-mode #photographers>.section-head{display:none}html.directory-mode .directory-heading{display:block}html.directory-mode .all-photographers{display:none}html.directory-mode .browse-top{justify-content:flex-end}
+html.directory-mode .nav-wrap.motion-nav{background:#fffefb!important;border-bottom:1px solid #dce5ed!important}html.directory-mode .nav-wrap.motion-nav nav a,html.directory-mode .nav-wrap.motion-nav .mobile-menu-toggle{color:#173d5d!important}html.directory-mode .nav-wrap.motion-nav .nav-cta{background:#173d5d!important;color:white!important}
+.profile-neighbours{display:flex;justify-content:space-between;gap:12px;margin:24px 0}.profile-neighbours a{padding:14px;border:1px solid #d7e2eb;border-radius:12px;font-size:13px;background:white;color:#173d5d}
+@media(max-width:1100px){#photographers .cheese-photographer-card{flex-basis:calc((100% - 40px)/3)}#photographers.grid-view .cheese-photographer-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:800px){#photographers .cheese-photographer-card{flex-basis:calc((100% - 20px)/2)}#photographers.grid-view .cheese-photographer-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.directory-tools{grid-template-columns:1fr 200px}}
+@media(max-width:560px){.nav-wrap.motion-nav .brand-logo{width:50px!important;height:50px!important}.browse-top{align-items:flex-start;flex-direction:column}.directory-tools{grid-template-columns:1fr}.directory-tools input{font-size:16px}#photographers .cheese-photographer-card{flex-basis:85%}#photographers.grid-view .cheese-photographer-grid{grid-template-columns:1fr!important}.view-switch button{padding:10px 14px}.directory-heading h1{font-size:39px}.profile-neighbours a{font-size:12px;padding:12px}}
+@media(prefers-reduced-motion:reduce){#photographers .cheese-photographer-card{transition:none!important}}
+
+/* ===== swipe-only-v9 ===== */
+#photographers .browse-top {display:flex;justify-content:center;align-items:center;margin:8px auto 30px;width:100%}
+#photographers .all-photographers {display:inline-flex;align-items:center;justify-content:center;gap:24px;width:min(100%,390px);min-height:62px;padding:18px 28px;border:1px solid #d5bf7e;border-radius:18px;background:#fff7df;color:#173d5d;font-weight:800;font-size:15px;text-align:center;box-shadow:0 8px 24px #173d5d08;transition:background .25s ease,box-shadow .25s ease}
+#photographers .all-photographers:hover {background:#f8e9bb;box-shadow:0 10px 26px #173d5d12}
+#photographers .all-photographers span {font-size:20px}
+#photographers .rail-toolbar {align-items:center;flex-wrap:wrap;gap:8px}
+#photographers .swipe-hint {display:flex;align-items:center;gap:9px;color:#526b7e;font-size:13px}
+.swipe-hint span {font-size:20px;color:#a97810}
+#photographers .cheese-photographer-grid {cursor:grab;touch-action:pan-x pan-y;}
+#photographers .cheese-photographer-grid.is-dragging {scroll-snap-type:none;cursor:grabbing;user-select:none;scroll-behavior:auto}
+#photographers .cheese-photographer-grid.is-dragging * {cursor:grabbing!important}
+html.directory-mode #photographers .browse-top {display:none}
+@media(max-width:560px){#photographers .browse-top{flex-direction:row}#photographers .all-photographers{font-size:14px;min-height:58px}#photographers .swipe-hint{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#photographers .all-photographers{transition:none}}
+
+/* ===== cheese-real-photos-v10 ===== */
+.hero-shot.wide,.hero-shot.mid,.hero-shot.portrait{width:auto!important;min-width:0!important;aspect-ratio:2/3}
+.hero-shot img{object-position:center 40%;filter:saturate(.96) contrast(1.02) brightness(.88)}
+.cheese-photographer-card .card-image{background-position:center 40%!important}
+.profile-slides{aspect-ratio:3/4;max-height:78svh;background:#e9e6e0}
+.profile-slides img{object-fit:contain;object-position:center}
+.profile-portfolio img{aspect-ratio:2/3;object-fit:cover;object-position:center}
+.masonry figure img{object-position:center 38%}
+
+/* ===== founder-badge-v11 ===== */
+.cheese-photographer-card[data-team="Founder"] .badge {background:#fff0bb!important;color:#795a12!important;border-color:#e6c55e!important}
+.cheese-photographer-card[data-team="Founder"] {border-color:#dfc77e!important}

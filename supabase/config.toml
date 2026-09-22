@@ -1,0 +1,7 @@
+project_id = "your-project-ref"
+
+[functions.booking-notify]
+verify_jwt = false
+
+[functions.status-notify]
+verify_jwt = true
