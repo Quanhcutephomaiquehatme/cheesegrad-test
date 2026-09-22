@@ -4,6 +4,6 @@
   Chỉ dùng ANON/PUBLISHABLE KEY ở đây. KHÔNG BAO GIỜ dán service_role key vào website.
 */
 window.CHEESE_CONFIG = {
-  supabaseUrl: "PASTE_YOUR_SUPABASE_URL_HERE",
-  supabaseAnonKey: "PASTE_YOUR_SUPABASE_ANON_KEY_HERE"
+  supabaseUrl: "https://kjyavdlnuboumdvcfbqj.supabase.co",
+  supabaseAnonKey: "sb_publishable_FoDUVARpXqtB5qmS3h34gw_utpML8yl"
 };
