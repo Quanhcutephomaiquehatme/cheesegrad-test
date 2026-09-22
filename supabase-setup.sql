@@ -500,7 +500,7 @@ using (bucket_id='photographers' and public.is_admin());
 -- 2) Dùng CÙNG email đó thay cho dòng dưới.
 -- ============================================================
 insert into public.admin_users(email)
-values ('cheesegraduation.com')
+values ('cheesegraduation@gmail.com')
 on conflict (email) do nothing;
 
 
