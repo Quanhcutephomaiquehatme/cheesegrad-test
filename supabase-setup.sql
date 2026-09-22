@@ -57,14 +57,14 @@ update public.photographers set
     when 'ngoc-hoang' then 3100000 else price_amount end,
   price_label = case when slug in ('minh-anh','quang-vinh') then 'Liên hệ' else price_label end,
   style = coalesce(style, case slug
-    when 'quang-anh' then 'Trong trẻo · Outdoor'
+    when 'quang-anh' then 'Film · Kỷ Yếu · Tốt nghiệp'
     when 'chi' then 'Editorial · Đèn'
     when 'minh' then 'Film · Vintage'
     when 'ngoc-hoang' then 'Cinematic · Flash'
     when 'minh-anh' then 'Chân dung'
     when 'quang-vinh' then 'Ảnh nhóm' end),
   tags = case when cardinality(tags)=0 then case slug
-    when 'quang-anh' then array['Trong trẻo','Outdoor']
+    when 'quang-anh' then array['Film','Kỷ Yếu','Tốt Nhiệp']
     when 'chi' then array['Editorial','Đèn']
     when 'minh' then array['Film','Vintage']
     when 'ngoc-hoang' then array['Cinematic','Flash']
@@ -500,7 +500,7 @@ using (bucket_id='photographers' and public.is_admin());
 -- 2) Dùng CÙNG email đó thay cho dòng dưới.
 -- ============================================================
 insert into public.admin_users(email)
-values ('YOUR_ADMIN_EMAIL@example.com')
+values ('cheesegraduation.com')
 on conflict (email) do nothing;
 
 
